@@ -4,7 +4,7 @@ FIBREC=20
 export NTIMES
 
 compile:
-	/usr/bin/gcc -O2 fibonacciRecursiva.c -o fibonacciRecursiva_run
+	/usr/bin/gcc -O0 fibonacciRecursiva.c -o fibonacciRecursiva_run
 	
 measure:
 	sudo modprobe msr

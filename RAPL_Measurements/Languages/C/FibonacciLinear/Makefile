@@ -4,7 +4,7 @@ FIBLIN=20
 export NTIMES
 
 compile:
-	/usr/bin/gcc -O2 fibonacciLinear.c -o fibonacciLinear_run
+	/usr/bin/gcc -O0 fibonacciLinear.c -o fibonacciLinear_run
 	
 measure:
 	sudo modprobe msr

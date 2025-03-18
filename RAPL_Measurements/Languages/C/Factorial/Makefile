@@ -4,7 +4,7 @@ FACTORIAL=20
 export NTIMES
 
 compile:
-	/usr/bin/gcc -O2 factorial.c -o factorial_run
+	/usr/bin/gcc -O0 factorial.c -o factorial_run
 	
 measure:
 	sudo modprobe msr

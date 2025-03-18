@@ -27,7 +27,7 @@ ax_linear.plot(fibonacci, times_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('Tempo (ms)') 
 ax_linear.legend(['Tempo de Execução'])
-fig_linear.savefig(os.path.join(output_dir, 'tempo_exec_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_tempo_exec_linear.png'))
 
 # Tempo de Execução para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -45,7 +45,7 @@ ax_recursiva.plot(fibonacci, times_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('Tempo (ms)') 
 ax_recursiva.legend(['Tempo de Execução'])
-fig_recursiva.savefig(os.path.join(output_dir, 'tempo_exec_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_tempo_exec_recursiva.png'))
 
 # Consumo de Energia para Fibonacci Linear
 fig_linear, ax_linear = plt.subplots()
@@ -63,7 +63,7 @@ ax_linear.plot(fibonacci, energy_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('Package')
 ax_linear.legend(['Consumo de Energia'])
-fig_linear.savefig(os.path.join(output_dir, 'consumo_energia_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_consumo_energia_linear.png'))
 
 # Consumo de Energia para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -81,7 +81,7 @@ ax_recursiva.plot(fibonacci, energy_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('Package')
 ax_recursiva.legend(['Consumo de Energia'])
-fig_recursiva.savefig(os.path.join(output_dir, 'consumo_energia_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_consumo_energia_recursiva.png'))
 
 # Temperatura para Fibonacci Linear
 fig_linear, ax_linear = plt.subplots()
@@ -99,7 +99,7 @@ ax_linear.plot(fibonacci, temperature_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('Temperature')
 ax_linear.legend(['Temperatura'])
-fig_linear.savefig(os.path.join(output_dir, 'temperatura_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_temperatura_linear.png'))
 
 # Temperatura para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -117,7 +117,7 @@ ax_recursiva.plot(fibonacci, temperature_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('Temperature')
 ax_recursiva.legend(['Temperatura'])
-fig_recursiva.savefig(os.path.join(output_dir, 'temperatura_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_temperatura_recursiva.png'))
 
 # Core para Fibonacci Linear
 fig_linear, ax_linear = plt.subplots()
@@ -135,7 +135,7 @@ ax_linear.plot(fibonacci, core_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('Core')
 ax_linear.legend(['Core'])
-fig_linear.savefig(os.path.join(output_dir, 'core_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_core_linear.png'))
 
 # Core para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -153,7 +153,7 @@ ax_recursiva.plot(fibonacci, core_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('Core')
 ax_recursiva.legend(['Core'])
-fig_recursiva.savefig(os.path.join(output_dir, 'core_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_core_recursiva.png'))
 
 # Memória para Fibonacci Linear
 fig_linear, ax_linear = plt.subplots()
@@ -171,7 +171,7 @@ ax_linear.plot(fibonacci, memory_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('Memory')
 ax_linear.legend(['Memory'])
-fig_linear.savefig(os.path.join(output_dir, 'memory_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_memory_linear.png'))
 
 # Memória para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -189,7 +189,7 @@ ax_recursiva.plot(fibonacci, memory_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('Memory')
 ax_recursiva.legend(['Memory'])
-fig_recursiva.savefig(os.path.join(output_dir, 'memory_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_memory_recursiva.png'))
 
 # DRAM para Fibonacci Linear
 fig_linear, ax_linear = plt.subplots()
@@ -207,7 +207,7 @@ ax_linear.plot(fibonacci, dram_linear, marker='o')
 ax_linear.set_xlabel('Fibonacci')
 ax_linear.set_ylabel('DRAM')
 ax_linear.legend(['DRAM'])
-fig_linear.savefig(os.path.join(output_dir, 'dram_linear.png'))
+fig_linear.savefig(os.path.join(output_dir, 'O0_dram_linear.png'))
 
 # DRAM para Fibonacci Recursiva
 fig_recursiva, ax_recursiva = plt.subplots()
@@ -225,4 +225,4 @@ ax_recursiva.plot(fibonacci, dram_recursiva, marker='o')
 ax_recursiva.set_xlabel('Fibonacci')
 ax_recursiva.set_ylabel('DRAM')
 ax_recursiva.legend(['DRAM'])
-fig_recursiva.savefig(os.path.join(output_dir, 'dram_recursiva.png'))
+fig_recursiva.savefig(os.path.join(output_dir, 'O0_dram_recursiva.png'))

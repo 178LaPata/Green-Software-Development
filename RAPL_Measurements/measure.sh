@@ -9,7 +9,7 @@ COOLDOWN_SECONDS=3
 # Define power limit values
 POWER_LIMITS=(-1)
 
-INPUT_VALUES=(20 30 40)
+INPUT_VALUES=(10 20 30 40 50 60 70 80)
 
 # Compile sensors which will be used to calculate cool temperature
 cd RAPL
